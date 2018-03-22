@@ -1,0 +1,16 @@
+#main-nav{
+    .navbar-brand {
+        font-family: $h-font;
+        font-size: 2em;
+        color: #fff;
+    }
+    .nav-link{
+        text-transform: uppercase;
+        font-family: $secondary-font;
+        transition: all 0.5s;
+        color: #fff;
+        &:hover{
+            color: $secondary-color;
+        }
+    }
+}

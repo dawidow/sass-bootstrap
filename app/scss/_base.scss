@@ -1,0 +1,28 @@
+body{
+    font-family: $primary-font;
+    color: #777;
+    section{
+        padding: 60px 0;
+        .section-header{
+            margin-bottom: 70px;
+            width: 100%;
+            text-align: center;
+            h2{
+                font-family: $secondary-font;
+                color: #333333;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+        }
+        h3{
+            font-family: $secondary-font;
+            color: #333333;
+            font-size: 1.2em;
+            margin: 10px 0;
+            
+        }
+    }
+    .blue-nav{
+        background-color: rgba(14, 216, 213, 0.514);
+    }
+}

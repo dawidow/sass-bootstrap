@@ -1,0 +1,37 @@
+#main-header{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../img/header/pictures_on_the_wall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    .header-caption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h2{
+            font-size: 3em;
+            font-family: $h-font;
+        }
+        h1{
+            font-size: 4em;
+            font-family: $secondary-font;
+        }
+        .view-more{
+            background-color: $secondary-color;
+            font-family: $secondary-font;
+            color: #fff;
+            padding: 15px 30px;
+            border: 1px solid $secondary-color;
+            transition: all 0.5s;
+            &:hover{
+                background-color: #fff;
+                color: $secondary-color;
+            }
+        }
+    }
+}
